@@ -1,8 +1,13 @@
 What is React
+
 How to initialize React
+
 Jsx
+
 Functional components
+
 Props
+
 State - useState(), useEffect(), useContext, useRef
 
 Routing:
@@ -16,6 +21,9 @@ Forms & Events:
 - Form submission
 
 axios
+
 tailwindcss
+
 shadcn
+
 clerk.com

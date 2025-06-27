@@ -1,13 +1,19 @@
 // Commands for initializing
+
 pnpm create vite@latest projectName
+
 # Select: React
+
 # Choose: JavaScript or JavaScript + SWC (SWC = Speedy Web Compiler — a fast alternative to Babel)
 
 cd projectName
+
 pnpm install
+
 pnpm run dev
 
 // OR... initialize the entire project in a single line:
+
 pnpm create vite@latest projectName --template react && cd projectName && pnpm install && pnpm run dev
 
 

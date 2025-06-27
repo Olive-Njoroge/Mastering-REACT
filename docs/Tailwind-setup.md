@@ -7,7 +7,9 @@
 ### Installing Tailwind v4.1
 
 #### Step 1: Install Tailwind and the Vite plugin
+
 ```bash
+
 pnpm add tailwindcss @tailwindcss/vite
 
 or 
@@ -20,14 +22,20 @@ pnpm add -D tailwindcss @tailwindcss/vite
 
 
 #### Step 2:
+
 In vite.config.ts (check docs for correct placement):
 
 import tailwindcss from '@tailwindcss/vite'
 
 export default {
+
   plugins: [tailwindcss()]
+
 }
 
+
 #### Step 3:
+
 In index.css, erase everything and add:
+
 @import "tailwindcss";

@@ -9,13 +9,21 @@ This guide walks you through integrating [shadcn/ui](https://ui.shadcn.com) with
 
 At the root of your project, create a file named `jsconfig.json` with the following content:
 
+
 {
+
   "compilerOptions": {
+
     "baseUrl": ".",
+
     "paths": {
+
       "@/*": ["./src/*"]
+
     }
+
   }
+
 }
 
 This allows you to use absolute imports like @/components/Button.
@@ -47,14 +55,17 @@ export default defineConfig({
     },
 
   },
-  
+
 })
+
 
 
 
 Step 3: Initialize shadcn/ui 
 
 pnpm dlx shadcn@latest init
+
+
 
 Step 4: Add Components 
 
