@@ -10,6 +10,8 @@ This guide walks you through integrating [shadcn/ui](https://ui.shadcn.com) with
 
 ## ✅ Step-by-Step Installation
 
+---
+
 ### 🔹 Step 1: Set up `jsconfig.json`
 
 At the root of your project, create a file named `jsconfig.json` and add:
@@ -23,53 +25,55 @@ At the root of your project, create a file named `jsconfig.json` and add:
     }
   }
 }
+````
 
+This allows you to use absolute imports like `@/components/Button`.
 
-This allows you to use absolute imports like @/components/Button.
+---
 
+### 🔹 Step 2: Update `vite.config.js`
 
-Step 2: Update vite.config.js    (Please check the documentation)
+> 📌 Please check the official documentation for the latest configuration options.
 
+```js
 import path from "path"
-
 import tailwindcss from "@tailwindcss/vite"
-
 import react from "@vitejs/plugin-react"
-
 import { defineConfig } from "vite"
 
-
 // https://vite.dev/config/
-
 export default defineConfig({
-
   plugins: [react(), tailwindcss()],
-
   resolve: {
-
     alias: {
-
       "@": path.resolve(__dirname, "./src"),
-
     },
-
   },
-
 })
+```
 
+---
 
+### 🔹 Step 3: Initialize shadcn/ui
 
+Run the initialization command:
 
-Step 3: Initialize shadcn/ui 
-
+```bash
 pnpm dlx shadcn@latest init
+```
 
+You’ll be asked to select options like your base color and component setup.
 
+---
 
-Step 4: Add Components 
+### 🔹 Step 4: Add Components
 
-Visit the shadcn/ui Components page, choose the components you need, and follow the installation instructions.
+Visit the [shadcn/ui Components](https://ui.shadcn.com/docs/components) page, choose the components you need, and follow the instructions to install them.
 
-e.g adding a button component:
+Example: To add a Button component:
 
+```bash
 pnpm dlx shadcn@latest add button
+```
+
+

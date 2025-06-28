@@ -1,6 +1,3 @@
-Here's your content rewritten in clean `.md` (Markdown) format — perfect for saving as `initialization.md` inside your `docs/` folder:
-
-````md
 # ⚙️ Project Initialization & Package Managers
 
 ---
