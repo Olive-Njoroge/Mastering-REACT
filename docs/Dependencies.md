@@ -27,3 +27,15 @@ function App() {
     </BrowserRouter>
   );
 }
+````
+
+---
+
+#### `pnpm add @heroicons/react`
+
+Installs a set of beautiful, open-source icons commonly used in React components for UI elements (like buttons, modals, etc.).
+
+---
+
+```
+
