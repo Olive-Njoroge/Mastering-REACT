@@ -1,30 +1,29 @@
 # 🧱 Setting Up shadcn/ui with Vite
 
+**Shadcn** is a component library built on top of Tailwind CSS that provides accessible, beautiful, and customizable UI components for modern React applications.
+
+> **Note:** Tailwind CSS must be configured properly **before** setting up shadcn/ui.
+
 This guide walks you through integrating [shadcn/ui](https://ui.shadcn.com) with a React project using **Vite**.
 
+---
 
 ## ✅ Step-by-Step Installation
 
-### Step 1: Set up `jsconfig.json`
+### 🔹 Step 1: Set up `jsconfig.json`
 
-At the root of your project, create a file named `jsconfig.json` with the following content:
+At the root of your project, create a file named `jsconfig.json` and add:
 
-
+```json
 {
-
   "compilerOptions": {
-
     "baseUrl": ".",
-
     "paths": {
-
       "@/*": ["./src/*"]
-
     }
-
   }
-
 }
+
 
 This allows you to use absolute imports like @/components/Button.
 

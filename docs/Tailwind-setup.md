@@ -1,41 +1,51 @@
 ## 🎨 Tailwind CSS Installation (v4.1)
 
-**Tailwind Documentation:**  
+**Official Documentation:**  
 [https://tailwindcss.com/docs/installation/using-vite](https://tailwindcss.com/docs/installation/using-vite)
 
+---
 
-### Installing Tailwind v4.1
+### ✅ Installing Tailwind v4.1
 
-#### Step 1: Install Tailwind and the Vite plugin
+---
+
+#### 🔹 Step 1: Install Tailwind and the Vite plugin
 
 ```bash
-
 pnpm add tailwindcss @tailwindcss/vite
+````
 
-or 
+or, if you want to add it as a **dev dependency**:
 
-# Flagging '-D' means you want it to go to dev dependencies
+```bash
 pnpm add -D tailwindcss @tailwindcss/vite
+```
 
+---
 
+#### 🔹 Step 2: Update `vite.config.ts`
 
+> 📌 Check the official Tailwind docs to ensure correct placement in your config.
 
-
-#### Step 2:
-
-In vite.config.ts (check docs for correct placement):
-
-import tailwindcss from '@tailwindcss/vite'
+```ts
+import tailwindcss from "@tailwindcss/vite"
 
 export default {
-
   plugins: [tailwindcss()]
-
 }
+```
 
+---
 
-#### Step 3:
+#### 🔹 Step 3: Update `index.css`
 
-In index.css, erase everything and add:
+Erase everything in `index.css` and replace it with:
 
+```css
 @import "tailwindcss";
+```
+
+---
+
+
+
