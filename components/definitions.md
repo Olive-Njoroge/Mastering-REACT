@@ -10,6 +10,8 @@ They serve the same purpose as JavaScript functions but are used to build UI pie
 A component is a building block of a React application.  
 It allows you to split the UI into reusable, isolated pieces that manage their own structure, styling, and behavior.
 
+Note: When creating a React component, the component's name MUST start with an upper case letter.
+
 There are **two main types** of components:
 
 ---
@@ -90,8 +92,4 @@ Usage:
 ---
 
 ✅ React encourages **component-based architecture**, which scales well for large applications.
-
-```
-
----
 
