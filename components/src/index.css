@@ -1,0 +1,29 @@
+.cardPic{
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+
+.cardDiv{
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: aqua;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
