@@ -23,4 +23,26 @@ The `components/` folder contains examples and explanations of how to:
 - Pass and consume **props**
 
 It serves as a hands-on reference for learning how React components work together to build dynamic, reusable user interfaces.
-```
+
+---
+
+## 📁 react-route/ Folder
+
+The `react-route/` folder demonstrates how to build a **multi-page application** using `react-router-dom`. It includes:
+
+- Page components like `Home.jsx`, `Form.jsx`, and `Coffee.jsx`
+- A shared `Layout.jsx` with a navigation bar and `<Outlet />` for rendering nested routes
+- Routing logic defined in `App.jsx` using `useNavigate` and nested `<Routes>`
+
+This folder showcases how to implement dynamic navigation and layout structure in a React application.
+
+---
+
+## 📁 clickEvents/ Folder
+
+The `clickEvents/` folder contains simple examples focused on handling **`onClick` events**. It demonstrates:
+
+- How to respond to user clicks with React event handlers
+- Updating UI state or triggering functions through button clicks
+
+This is a beginner-friendly sandbox for understanding event binding and UI interactivity in React.
