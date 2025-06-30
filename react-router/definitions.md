@@ -89,3 +89,38 @@ export default Layout;
 
 * Use `<Link>` instead of `<a href="">` to avoid page reloads.
 * `<Outlet />` is a placeholder that renders the **matched child route** inside the layout.
+
+---
+
+## 🚀 `useNavigate()` – Programmatic Navigation
+
+The `useNavigate()` hook from `react-router-dom` allows you to navigate to different routes **programmatically**, typically in response to user actions like button clicks or form submissions.
+
+### 🧪 Example: Using `useNavigate()` to Redirect
+
+```jsx
+import { useNavigate } from "react-router-dom";
+
+export default function Home() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/contact"); // redirects to the contact page
+  };
+
+  return (
+    <div>
+      <h1>Welcome Home</h1>
+      <button onClick={handleClick}>Go to Contact</button>
+    </div>
+  );
+}
+```
+
+### 📌 When to Use
+
+Use `useNavigate()` when:
+
+* Submitting a form
+* Navigating based on logic (e.g., after login or conditionally)
+* Triggering navigation from a custom event or non-link element
