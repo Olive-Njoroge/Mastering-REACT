@@ -46,3 +46,15 @@ The `clickEvents/` folder contains simple examples focused on handling **`onClic
 - Updating UI state or triggering functions through button clicks
 
 This is a beginner-friendly sandbox for understanding event binding and UI interactivity in React.
+
+---
+
+## 📁 axios/ Folder
+
+The `axios/` folder handles **HTTP communication between the frontend and backend** using Axios. It includes:
+
+- A reusable `api.js` file that defines the `baseURL` for your API requests (e.g. `http://localhost:5000/api/people`)
+- Example components (like `PeopleForm` and `PeopleList`) that **send GET, POST, PUT, and DELETE requests**
+- Demonstrations of how to manage state updates after successful API calls
+
+This folder provides a clear and practical approach to integrating external data sources into your React app using Axios.
